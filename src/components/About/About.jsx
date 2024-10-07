@@ -16,7 +16,7 @@ export default function About() {
                             OUR MISSION
                         </h2>
                         <p className="mt-6 text-gray-600">
-                        At [Charity Name], our mission is to make a meaningful impact in the lives of those in need. We believe in the power of community and compassion, and we strive to create a world where everyone has the opportunity to thrive. Through our dedicated efforts, we aim to address pressing social issues and uplift marginalized individuals and communities.
+                        At Sahayata, our mission is to make a meaningful impact in the lives of those in need. We believe in the power of community and compassion, and we strive to create a world where everyone has the opportunity to thrive. Through our dedicated efforts, we aim to address pressing social issues and uplift marginalized individuals and communities.
                         </p>
                         <p className="mt-4 text-gray-600">
                             
