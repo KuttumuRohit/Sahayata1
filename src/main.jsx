@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact.jsx';
 import User from './components/User/User.jsx';
 import DonationForm from './components/DonationForm/DonationForm.jsx';
 import FeedbackForm from './components/FeedbackForm/FeedbackForm.jsx';
+import Dashboard from './components/Dashboard.jsx/Dashboard.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
 
       {/* New Routes */}
       <Route path='donate' element={<DonationForm />} />
+      <Route path='dashboard' element={<Dashboard />} />
       <Route path='feedback' element={<FeedbackForm />} />
     </Route>
   )

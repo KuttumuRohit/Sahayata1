@@ -48,10 +48,20 @@ export default function Contact() {
                                 Get in touch:
                             </h1>
                             <p className="text-normal text-lg sm:text-xl font-medium text-gray-600 mt-2">
-                                Fill in the form to start a conversation
+                                Fill in the form to start a conversation, or contact us directly through the details below:
                             </p>
 
-                            {/* Your contact information */}
+                            <div className="mt-4">
+                                <p className="text-lg text-gray-600 font-medium">
+                                    <strong>Email:</strong> Sahayata091024@gmail.com
+                                </p>
+                                <p className="text-lg text-gray-600 font-medium mt-2">
+                                    <strong>Phone:</strong> 9392506176
+                                </p>
+                                <p className="text-lg text-gray-600 font-medium mt-2">
+                                    <strong>Address:</strong> 1-25/8/14 Secunderabad, 500015
+                                </p>
+                            </div>
                         </div>
 
                         <form onSubmit={handleSubmit} className="p-6 flex flex-col justify-center">

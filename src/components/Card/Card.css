@@ -1,0 +1,56 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px; /* Adjust the width as needed */
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.profile-container img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0; /* Optional: add a border below the image */
+}
+
+.profile-info {
+    padding: 16px;
+}
+
+.profile-info h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-info .job-title {
+    font-weight: bold;
+    color: #0073e6; /* Adjust color to your preference */
+}
+
+.profile-info .desc {
+    color: #666;
+}
+
+.profile-social {
+    margin: 12px 0;
+}
+
+.profile-social a {
+    margin: 0 8px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.profile-social a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.card-bottom {
+    height: 10px; /* Adjust height as needed */
+}
