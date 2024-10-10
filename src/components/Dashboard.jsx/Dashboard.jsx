@@ -14,9 +14,9 @@ const Dashboard = () => {
         const fetchDonations = async () => {
             try {
                 const [totalRes, byCauseRes, lastDonationsRes] = await Promise.all([
-                    axios.get('http://localhost:5000/api/donations/total'),
-                    axios.get('http://localhost:5000/api/donations/by-cause'),
-                    axios.get('http://localhost:5000/api/donations/last-5'), // New endpoint for last donations
+                    axios.get('https://sahayata-backend-beta.onrender.com/api/donations/total'),
+                    axios.get('https://sahayata-backend-beta.onrender.com/api/donations/by-cause'),
+                    axios.get('https://sahayata-backend-beta.onrender.com/api/donations/last-5'), // New endpoint for last donations
                 ]);
 
                 setTotalDonated(totalRes.data.totalDonated || 0);

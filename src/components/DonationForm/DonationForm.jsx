@@ -48,7 +48,7 @@ const DonationForm = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:5000/api/donate', {
+            const response = await axios.post('https://sahayata-backend-beta.onrender.com/api/donate', {
                 name: formData.name,
                 email: formData.email,
                 amount: parseFloat(formData.amount),
