@@ -49,7 +49,17 @@ function FeedbackForm() {
   };
 
   return (
+    <div>
+      <div className="max-w-lg mx-auto p-8 bg-white shadow-lg rounded-lg mt-8">
+    <div className="p-6">
+        <h2 className="text-3xl font-semibold text-orange-700 mb-6 text-center">You Can Contact Us At</h2>
+        <p className="text-gray-700 mb-2">Email: <a href="mailto:rohitkuttum321@gmail.com" className="text-blue-500 hover:underline">rohitkuttum321@gmail.com</a></p>
+        <p className="text-gray-700 mb-2">Phone No: <span className="text-gray-600">9392506176</span></p>
+        <p className="text-gray-700">Address: <span className="text-gray-600">1-25/8/14, 500015 Secunderabad, India</span></p>
+    </div>
+</div>
     <div className="max-w-lg mx-auto p-8 bg-white shadow-lg rounded-lg mt-8">
+      
       <h2 className="text-3xl font-semibold text-orange-700 mb-6 text-center">We Value Your Feedback</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
 
@@ -142,7 +152,10 @@ function FeedbackForm() {
           We appreciate you taking the time to provide your feedback. Your input helps us improve.
         </p>
       </Modal>
+      
     </div>
+    </div>
+    
   );
 }
 
